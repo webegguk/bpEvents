@@ -33,6 +33,5 @@ $(function($) {
 
         // Store the new dimensions
         previousDimensions = newDimensions;
-        // testing comment
     }));
 });
