@@ -35,13 +35,11 @@ $(function($) {
         if (newDimensions.width > previousDimensions.width) {
             // scaling up
             if((newDimensions.width > 480) && (previousDimensions.width < 480)){
-		        location.reload();
 		        console.log('scaling up');
 		    }
         } else {
             // scaling down
             if((newDimensions.width < 480) && (previousDimensions.width > 480)){
-		        location.reload();
 		        console.log('scaling down');
 		    }
         }
